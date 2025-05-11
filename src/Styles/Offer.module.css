@@ -1,0 +1,25 @@
+.offerContent{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 0;
+}
+.offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, .3);
+}
+.offerContent h3{
+    font-weight: 600;
+    color: #000000;
+}
+.offerContent p{
+    color: #666666;
+    width: 200px; 
+    text-align: center;
+    padding-top: 5px;
+}

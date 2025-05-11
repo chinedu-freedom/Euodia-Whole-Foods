@@ -1,0 +1,32 @@
+.coursesContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+.courses {
+    display: flex;
+    gap: 2%;
+    width: 70%;
+    overflow-x: auto;
+    justify-content: flex-start;
+    align-items: center;
+}
+.courses button{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: transparent;
+    width: fit-content;
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px;
+    height: 40px;
+    width: 100px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.courses:active{
+    outline: none;
+}
+.courses::-webkit-scrollbar{
+    display: none; 
+}

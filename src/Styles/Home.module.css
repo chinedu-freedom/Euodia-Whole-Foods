@@ -1,0 +1,38 @@
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.come{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.food{
+    width: 30%;
+}
+.stay{
+    font-size: 40px;
+}
+.foodIntro{
+    margin-top: 25px;
+    max-width: 450px;
+    color: #666666;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.order{
+    padding: 12px;
+    background-color: #219653;
+    border: none;
+    color: #ffffff;
+    width: 140px;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.introRightContent img{
+    width: 100%;
+}

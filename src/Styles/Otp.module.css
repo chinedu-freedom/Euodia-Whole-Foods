@@ -1,0 +1,81 @@
+.otpContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.otpInput {
+  width: 40px;
+  height: 44px;
+  border-radius: 8px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border: 1px solid #6fcf9780;
+  background-color: #ffffff;
+  outline: none;
+  margin-left: 5px;
+  text-align: center;
+}
+.otpContainerContent{
+    border: 1px solid rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    height: 65vh;
+    width: 35%;   
+    padding-top: 70px;
+}
+.otpContainerContent h2{
+    color: #219653;
+    text-align: center;
+}
+.otpContainerContent p{
+    font-size: 12px;
+    color: #757575;
+    text-align: center;
+}
+.sendOtp:hover{
+    background-color: #219653;
+}
+.loginOpt{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #9CA3AF;
+    transition: color 0.3s ease;
+}
+.loginOpt a:nth-child(2){
+    text-decoration: underline;
+}
+.loginOpt:focus{
+    outline: none;
+}
+.loginOpt a{
+    color: #34A853;
+    text-decoration: none;
+    cursor: pointer; 
+    font-weight: 500;
+    margin-left: 5px;
+    text-decoration: none; 
+}
+#log-in-opt a:hover{
+    color: #219653;
+}
+.sendOtp{
+    margin-top: 10px;
+    width: 100%;
+    height: 44px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #48a861;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 17px;
+    transition: background-color 0.3s ease;
+    position: relative;
+}

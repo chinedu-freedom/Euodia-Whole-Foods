@@ -1,0 +1,63 @@
+.footer{
+    padding: 30px 30px 10px 30px;
+}
+.footerHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.emailSub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.email{
+    border-radius: 3px;
+    width: 200px;
+    height: 38px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+}
+li{
+    margin-top: 5px;
+}
+.subscribe{
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 5px;
+    border: 1px solid ;
+    outline: none;
+    background-color: #29a05d;
+    color: #fff;
+    cursor: pointer;
+}
+.subscribe:hover{
+    background-color: #1e9150;
+}
+.newsLetter{
+    color: #219653;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.footerMiddle{
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+}
+.footerToe{
+    display: flex;
+    justify-content: end;
+    gap: 14%;
+    /* margin-top: 30px */
+}
+.toeLeftContentUl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footerHr{
+    margin: 10px 0;
+}

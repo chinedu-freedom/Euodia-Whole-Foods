@@ -1,0 +1,43 @@
+.checkout{
+    height: 50vh;
+}
+.checkoutContainer h1{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #6D7280;
+    font-size: 40px;
+    color: #6D7280;
+    font-weight: bolder;
+}
+.checkoutContainerContent{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.checkoutDetail{
+    color: #6D7280;
+}
+.gratitude{
+    margin-bottom: 20px;
+    color: #6D7280;
+}
+.value{
+    color: #6D7280;
+}
+.label{
+    color: #6D7280;
+    font-weight: 600;
+}
+.checkoutContainer button{
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 4px;
+    border: none;
+}
+.checkoutContainer button:hover{
+    background-color: #dcdcdd;
+}
+.checkOutButton a{
+    color: #16A34A;
+    font-size: 14px;
+}

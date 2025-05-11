@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    list-style-type: none;
+    cursor: pointer;
+}
+a.active{
+    border-bottom: 2px solid #16A34A;
+}
+.container{
+    padding: 10px 4% 0 4%;
+}
+button{
+    cursor: pointer;
+}
+
+/* Dishes */
+.bestSellerDishesContainerContent:hover{
+    transform: scale(1.05);
+}
+.bestSellerDishesContainerContent{
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, .1);
+    border-radius: 12px;
+    padding-bottom: 40px;
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+}
+.dishImage{
+    width: 100% ;
+    height: 200px;
+    object-fit: cover;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.bestSellerDishesContainerContentContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 40px 50px 50px 50px;
+    position: relative;
+}
+.dishName{
+    color: #4B5563;
+    font-size: 18px;
+}
+.dishPrice{
+    color: #4B5563;
+    font-weight: bold;
+}
+.dishDescription{
+    font-size: 15px;
+    color: #757575;
+    display: flex;
+    align-items: center;
+}
+.categoryPrice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px 0 10px;
+    color: #4B5563;
+}
+.descBuy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px 0 10px;
+}
+.buyNow{
+    width: 90px;
+    height: 35px;
+    border-radius: 15px;
+    border: 1px solid #16A34A;
+    background-color:#16A34A;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
+textarea{
+    resize: none;
+}

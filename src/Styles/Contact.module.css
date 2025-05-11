@@ -1,0 +1,73 @@
+.contactContainer{
+    display: flex;
+    gap:2%;
+    padding-top: 40px;
+}
+.contactLeftContainer,
+.contactRightContainer{
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+.contactLeftContainer{
+    max-width: 250px;
+}
+.phoneCall,
+.email{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contactRightContainerContent{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+/* input,
+textarea{ */
+    /* border: none; */
+    /* background-color: rgb(197, 193, 193); */
+    /* text-indent: 10px; */
+    /* font-size: 12px; */
+/* } */
+::placeholder{
+    text-indent: 10px;
+}
+::placeholder::after{
+    content: "*";
+    color: red;
+}
+.contactTextarea{
+    margin-top: 20px;
+    padding-top: 10px;
+    outline: none;
+}
+.sendMessage{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+
+}
+.sendMessage button{
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #16A34A;
+    color: white;
+    border-radius: 6px;
+}
+p{
+    padding-top: 8px;
+}
+.contactHr{
+    margin: 20px 0;
+}
+.contactInfoInput{
+    border-radius: 3px;
+    width: 200px;
+    height: 38px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+}
