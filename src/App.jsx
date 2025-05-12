@@ -23,28 +23,30 @@ import Otp from "./Auth/Otp";
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<RootLayout />}>
-        <Route index element={<Home />} />
-        <Route path="/our-menu" element={<Menu />} />
-        <Route path="/contact-us" element={<Contact />} />
-        <Route path="/dish/:slug" element={<DishDetail />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/check" element={<Check />} />
-        <Route path="/check-out" element={<CheckOut />} />
-        <Route path="/not-found" element={<NotFound />} />
+      <>
+        {/* Routes with NavBar/Footer */}
+        <Route path="/" element={<RootLayout />}>
+          <Route index element={<Home />} />
+          <Route path="our-menu" element={<Menu />} />
+          <Route path="contact-us" element={<Contact />} />
+          <Route path="dish/:slug" element={<DishDetail />} />
+          <Route path="cart" element={<Cart />} />
+          <Route path="check" element={<Check />} />
+          <Route path="check-out" element={<CheckOut />} />
+          <Route path="not-found" element={<NotFound />} />
+        </Route>
+
+        {/* Auth routes without RootLayout (no Nav/Footer) */}
         <Route path="/sign-up" element={<SignUp />} />
-        <Route path="/login" element={<Login /> } />
+        <Route path="/login" element={<Login />} />
         <Route path="/forgot-password" element={<ResetPassword />} />
         <Route path="/reset-password" element={<ForgotPassword />} />
         <Route path="/otp" element={<Otp />} />
-      </Route>
+      </>
     )
   );
-  return (
-    <div>
-      <RouterProvider router={router} />
-    </div>
-  );
+
+  return <RouterProvider router={router} />;
 };
 
 export default App;
